@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cinder>
+<block
+	name="Cinder-WebsocketPP"
+	id="org.libcinder.websocketpp"
+	author="Cinder Project, Ryan Bartley"
+	license="BSD"
+	summary="Implements websocket protocols using openssl as the security."
+	core="true"
+	>
+	<supports os="ios" />
+	<supports os="macosx" />
+	<supports os="msw" />
+
+	<requires>org.libcinder.ssl</requires>
+	<headerPattern>websocketpp/websocketpp/*.hpp</headerPattern>
+	<headerPattern>websocketpp/websocketpp/config/*.hpp</headerPattern>
+	<headerPattern>websocketpp/websocketpp/common/*.hpp</headerPattern>
+	<headerPattern>websocketpp/websocketpp/concurrency/*.hpp</headerPattern>
+	<headerPattern>websocketpp/websocketpp/http/impl/*.hpp</headerPattern>
+	<headerPattern>websocketpp/websocketpp/http/*.hpp</headerPattern>
+	<headerPattern>websocketpp/websocketpp/logger/*.hpp</headerPattern>
+	<headerPattern>websocketpp/websocketpp/message_buffer/*.hpp</headerPattern>
+	<headerPattern>websocketpp/websocketpp/processors/*.hpp</headerPattern>
+	<headerPattern>websocketpp/websocketpp/random/*.hpp</headerPattern>
+	<headerPattern>websocketpp/websocketpp/roles/*.hpp</headerPattern>
+	<headerPattern>websocketpp/websocketpp/sha1/*.hpp</headerPattern>
+	<headerPattern>websocketpp/websocketpp/transport/*.hpp</headerPattern>
+	<headerPattern>websocketpp/websocketpp/transport/asio/*.hpp</headerPattern>
+	<headerPattern>websocketpp/websocketpp/transport/asio/security/*.hpp</headerPattern>
+	<headerPattern>websocketpp/websocketpp/transport/base/*.hpp</headerPattern>
+	<headerPattern>websocketpp/websocketpp/transport/debug/*.hpp</headerPattern>
+	<headerPattern>websocketpp/websocketpp/transport/iostream/*.hpp</headerPattern>
+	<headerPattern>websocketpp/websocketpp/transport/stub/*.hpp</headerPattern>
+	<includePath>websocketpp</includePath>
+	<includePath>../../include/asio</includePath>
+
+</block>
+</cinder>
