@@ -32,8 +32,12 @@
 	<headerPattern>websocketpp/websocketpp/transport/debug/*.hpp</headerPattern>
 	<headerPattern>websocketpp/websocketpp/transport/iostream/*.hpp</headerPattern>
 	<headerPattern>websocketpp/websocketpp/transport/stub/*.hpp</headerPattern>
-	<includePath>websocketpp</includePath>
-	<includePath>../../include/asio</includePath>
+  <headerPattern>src/cinder/websocketpp/*.h</headerPattern>
+
+  <includePath system="true">websocketpp</includePath>
+  <includePath system="true">../../include/asio</includePath>
+  <includePath system="true">../../include</includePath>
+  <includePath>src</includePath>
 
 </block>
 </cinder>

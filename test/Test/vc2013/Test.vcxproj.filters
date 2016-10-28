@@ -1,0 +1,373 @@
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Blocks">
+      <UniqueIdentifier>{FB8C413B-C3E0-46C4-B4D3-0745667C9495}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-WebsocketPP">
+      <UniqueIdentifier>{EACD5793-D676-458F-8165-3638E2BCA7FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-WebsocketPP\websocketpp">
+      <UniqueIdentifier>{54642A1E-BB94-41DD-9496-0EFCC54EF034}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-WebsocketPP\websocketpp\websocketpp">
+      <UniqueIdentifier>{AFECF077-6455-4FF9-A9C4-A1BF2295FCE1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\config">
+      <UniqueIdentifier>{93DED307-1597-4DF9-969D-87A6E47C9999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\common">
+      <UniqueIdentifier>{A3F339BC-1F96-4652-8C4C-27CC10885082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\concurrency">
+      <UniqueIdentifier>{9989D608-0550-4771-BA54-990D42590C83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\http">
+      <UniqueIdentifier>{30C419C1-07F1-4B6D-9E68-C8D59CC78F29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\http\impl">
+      <UniqueIdentifier>{202E2D73-AD0A-4113-A3B3-7444FE271773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\logger">
+      <UniqueIdentifier>{5727433D-298E-44F5-A9AB-78157E92FA42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\message_buffer">
+      <UniqueIdentifier>{46E55D53-6130-44D0-836B-580DA3B5C0C3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\processors">
+      <UniqueIdentifier>{A4965CCB-8CF0-4C16-A1BD-BE97A7D33010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\random">
+      <UniqueIdentifier>{DAE2BCD9-B21E-4E5D-A022-3F0120597DEE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\roles">
+      <UniqueIdentifier>{6CBCF274-C277-47D2-8057-D48F68D86261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\sha1">
+      <UniqueIdentifier>{CAA1F32F-7DEE-46E2-929B-EA8E4E754248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\transport">
+      <UniqueIdentifier>{4A603745-FDBA-49D9-9F5A-C9D70ED55A27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\transport\asio">
+      <UniqueIdentifier>{CC1FB450-17EB-4071-B1A5-AD0F16BE0B6A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\transport\asio\security">
+      <UniqueIdentifier>{45FB6D54-F136-41EA-B3A4-7CF0BEA96A7D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\transport\base">
+      <UniqueIdentifier>{597095F3-A75A-4FBC-91DB-E6A44B1926A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\transport\debug">
+      <UniqueIdentifier>{EA32A4A7-9680-4C38-825A-3E2AEDC4B25C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\transport\iostream">
+      <UniqueIdentifier>{77DE6F18-84F9-453F-9A65-2A532F54EF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\transport\stub">
+      <UniqueIdentifier>{C8CD6B87-C608-4AFE-B141-B68553239FBF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-WebsocketPP\src">
+      <UniqueIdentifier>{91EAE869-75DB-40A5-939E-522397A67308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-WebsocketPP\src\cinder">
+      <UniqueIdentifier>{C5E2D8DF-5341-4BF6-AA32-3802468CFE31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-WebsocketPP\src\cinder\websocketpp">
+      <UniqueIdentifier>{46A5E149-4005-4DA5-8B84-F18576CB0350}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\TestApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TestApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\client.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\close.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\connection.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\connection_base.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\endpoint.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\endpoint_base.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\error.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\frame.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\server.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\uri.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\utf8_validator.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\utilities.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\version.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\config\asio.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\config\asio_client.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\config\asio_no_tls.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\config\asio_no_tls_client.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\config\boost_config.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\config\core.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\config\core_client.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\config\debug.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\config\debug_asio.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\config\debug_asio_no_tls.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\config\minimal_client.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\config\minimal_server.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\common\asio.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\common\asio_ssl.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\common\chrono.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\common\connection_hdl.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\common\cpp11.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\common\functional.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\common\md5.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\common\memory.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\common\network.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\common\platforms.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\common\random.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\common\regex.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\common\stdint.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\common\system_error.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\common\thread.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\common\time.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\common\type_traits.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\concurrency\basic.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\concurrency</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\concurrency\none.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\concurrency</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\http\impl\parser.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\http\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\http\impl\request.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\http\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\http\impl\response.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\http\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\http\constants.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\http\parser.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\http\request.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\http\response.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\logger\basic.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\logger\levels.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\logger\stub.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\logger\syslog.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\message_buffer\alloc.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\message_buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\message_buffer\message.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\message_buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\message_buffer\pool.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\message_buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\processors\base.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\processors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\processors\hybi00.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\processors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\processors\hybi07.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\processors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\processors\hybi08.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\processors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\processors\hybi13.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\processors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\processors\processor.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\processors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\random\none.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\random\random_device.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\roles\client_endpoint.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\roles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\roles\server_endpoint.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\roles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\sha1\sha1.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\sha1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\transport\asio\base.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\transport\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\transport\asio\connection.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\transport\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\transport\asio\endpoint.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\transport\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\transport\asio\security\base.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\transport\asio\security</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\transport\asio\security\none.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\transport\asio\security</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\transport\asio\security\tls.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\transport\asio\security</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\transport\base\connection.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\transport\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\transport\base\endpoint.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\transport\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\transport\debug\base.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\transport\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\transport\debug\connection.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\transport\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\transport\debug\endpoint.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\transport\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\transport\iostream\base.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\transport\iostream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\transport\iostream\connection.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\transport\iostream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\transport\iostream\endpoint.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\transport\iostream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\transport\stub\base.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\transport\stub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\transport\stub\connection.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\transport\stub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\websocketpp\websocketpp\transport\stub\endpoint.hpp">
+      <Filter>Blocks\Cinder-WebsocketPP\websocketpp\websocketpp\transport\stub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\cinder\websocketpp\websocket.h">
+      <Filter>Blocks\Cinder-WebsocketPP\src\cinder\websocketpp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
